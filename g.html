@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<title> road map </title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<script src="colors.js"></script>
+</head>
+
+<body>
+  <h1><a href="index.html">front-end</a></h1>
+  <input id="night_day" type="button" value="night" onclick="
+  nightDayHandler(this);
+  ">
+  <div id="grid">
+  <ol>
+    <li><a href="h.html">HTML CSS JS</a></li>
+    <li><a href="n.html">Node.js</a></li>
+    <li><a href="r.html">React.js</a></li>
+    <li><a href="g.html">REST API or GraphQL</a></li>
+    <li><a href="t.html">TypeScipt</a></li>
+  </ol>
+
+  <div id="article">
+  <h2><strong>REST API</strong></h2>
+  <p><iframe width="560" height="315" src="https://www.youtube.com/embed/iOueE9AXDQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+  <p>REST(Representational State Transfer)는 월드 와이드 웹과 같은 분산 하이퍼미디어 시스템을 위한 소프트웨어 아키텍처의 한 형식이다. 이 용어는 로이 필딩(Roy Fielding)의 2000년 박사학위 논문에서 소개되었다. 필딩은 HTTP의 주요 저자 중 한 사람이다. 이 개념은 네트워킹 문화에 널리 퍼졌다.<br>
+  엄격한 의미로 REST는 네트워크 아키텍처 원리의 모음이다. 여기서 '네트워크 아키텍처 원리'란 자원을 정의하고 자원에 대한 주소를 지정하는 방법 전반을 일컫는다. 간단한 의미로는, 웹 상의 자료를 HTTP위에서 SOAP이나 쿠키를 통한 세션 트랙킹 같은 별도의 전송 계층 없이 전송하기 위한 아주 간단한 인터페이스를 말한다. 이 두 가지의 의미는 겹치는 부분과 충돌되는 부분이 있다. 필딩의 REST 아키텍처 형식을 따르면 HTTP나 WWW가 아닌 아주 커다란 소프트웨어 시스템을 설계하는 것도 가능하다. 또한, 리모트 프로시저 콜 대신에 간단한 XML과 HTTP 인터페이스를 이용해 설계하는 것도 가능하다.</p>
+
+  <h2><strong>GraphQL</strong></h2>
+  <p style="margin-top:5px;"></p>
+  <img src="graph.jpg" width=70%>
+  <p>그래프QL(영어: GraphQL)은 페이스북이 2012년에 개발하여 2015년에 공개적으로 발표된 데이터 질의어이다. 그래프QL은 REST 및 부속 웹서비스 아키텍처를 대체할 수 있다. 클라이언트는 필요한 데이터의 구조를 지정할 수 있으며, 서버는 정확히 동일한 구조로 데이터를 반환한다. 그래프QL은 사용자가 어떤 데이터가 필요한 지 명시할 수 있게 해 주는 강타입 언어이다. 이러한 구조를 통해 불필요한 데이터를 받게 되거나 필요한 데이터를 받지 못하는 문제를 피할 수 있다.<br>
+  주요 그래프QL 클라이언트로는 아폴로 클라이언트[와 Relay 등이 있다. 그래프QL 서버는 여러 언어로 구현되어 있는데, 자바스크립트, 파이썬, 루비, 자바, C#, 스칼라, 고, 엘릭서, 얼랭, PHP, 클로져 등의 언어로 구현되어 있다.</p>
+
+
+  </div>
+  </div>
+  <p>
+  <div id="disqus_thread"></div>
+  <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://web1-lkfggcgsb9.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </p>
+
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<title> road map </title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<script src="colors.js"></script>
+</head>
+
+<body>
+  <h1><a href="index.html">front-end</a></h1>
+  <input id="night_day" type="button" value="night" onclick="
+  nightDayHandler(this);
+  ">
+  <div id="grid">
+  <ol>
+    <li><a href="h.html">HTML CSS JS</a></li>
+    <li><a href="n.html">Node.js</a></li>
+    <li><a href="r.html">React.js</a></li>
+    <li><a href="g.html">REST API or GraphQL</a></li>
+    <li><a href="t.html">TypeScipt</a></li>
+  </ol>
+
+  <div id="article">
+  <h2><strong>Node.js</strong></h2>
+  <p><iframe width="560" height="315" src="https://www.youtube.com/embed/0BS05cC9U9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </p>
+  <p>Node.js는 확장성 있는 네트워크 애플리케이션(특히 서버 사이드) 개발에 사용되는 소프트웨어 플랫폼이다. 작성 언어로 자바스크립트를 활용하며 논블로킹(Non-blocking) I/O와 단일 스레드 이벤트 루프를 통한 높은 처리 성능을 가지고 있다.<br>
+  내장 HTTP 서버 라이브러리를 포함하고 있어 웹 서버에서 아파치 등의 별도의 소프트웨어 없이 동작하는 것이 가능하며 이를 통해 웹 서버의 동작에 있어 더 많은 통제를 가능케 한다.</p>
+
+  </div>
+  </div>
+  <p>
+  <div id="disqus_thread"></div>
+  <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://web1-lkfggcgsb9.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </p>
+
+</body>
+</html>
